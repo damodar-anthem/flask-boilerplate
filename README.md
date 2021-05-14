@@ -5,7 +5,7 @@ Requirements:
 
 ## Setup
 Create a new virtual environment using:
-```python3 -m venv .venv```
+```$ python3 -m venv .venv```
 
 [Activate](https://docs.python.org/3/library/venv.html#creating-virtual-environments) the virtualenv:
 * Windows: `.venv\Scripts\activate.bat`
@@ -13,10 +13,11 @@ Create a new virtual environment using:
 
 Install required packages:
 ```
-python3 -m pip install -r requirements.txt 
+$ python3 -m pip install -r requirements.txt 
 ```
 
 ## Running development server
-```flask run```
+In an activated virtual environment, run:
+```(.venv) $ flask run```
 
 This should start a local development server at http://127.0.0.1:5000.
