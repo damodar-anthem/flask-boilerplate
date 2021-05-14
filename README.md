@@ -5,7 +5,7 @@ Requirements:
 
 ## Setup
 Create a new virtual environment using:
-`python3 -m venv .venv`
+```python3 -m venv .venv```
 
 [Activate](https://docs.python.org/3/library/venv.html#creating-virtual-environments) the virtualenv:
 * Windows: `.venv\Scripts\activate.bat`
